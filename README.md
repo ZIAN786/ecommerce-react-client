@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Title
 
-## Available Scripts
+Ecommerce-React or E-Marketing
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is a basic implementation of a throw out which will scrap primarily starting from the following url:
 
-### `npm test`
+https://sane-react-ecommerce.netlify.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In today's competitive digital landscape, effective e-commerce marketing is essential to reach target audiences, drive traffic, enhance engagement, and ultimately increase sales. The primary goal of this project is to create and carry out a thorough e-commerce marketing strategy that is targeted to the objectives and target market of the company.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For development, you will only need Node.js and a node global package, NPM, installed in your environement.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+External packages used:
 
-### `npm run eject`
+    "braintree": "^3.13.0",
+    "mailgun.js": "^8.2.1",
+    "braintree-web-drop-in-react": "^1.2.1",
+    "web-vitals": "^2.1.4"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    $ git clone https://github.com/ZIAN786/ecommerce-react
+    $ cd ecommerce-react
+    $ npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Running the project
 
-## Learn More
+    $ nodemon index.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Following are thoughts or questions/answers:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. This shows new arrivals & bestsellers in different genres or themes.
 
-### Code Splitting
+2. In this application, users can come to register, and then buy their favorite books.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. It encourages users to buy in bulk and explore related content.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
